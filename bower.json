@@ -1,0 +1,33 @@
+{
+  "name": "foh-web-angular",
+  "homepage": "https://github.com/addiittya2006/foh-web-angular",
+  "authors": [
+    "Aditya <addiittya2006@gmail.com>"
+  ],
+  "description": "Fundofhope Site Primitive",
+  "main": "",
+  "keywords": [
+    "fundsofhope",
+    "ngo",
+    "crowdfunding",
+    "crowd",
+    "funding",
+    "startup"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "google-web-components": "googlewebcomponents/google-web-components#~1.0.1",
+    "iron-elements": "polymerelements/iron-elements#~1.0.4",
+    "jquery": "~2.1.4",
+    "paper-elements": "polymerelements/paper-elements#~1.0.6",
+    "polymer": "Polymer/polymer#~1.2.3"
+  }
+}

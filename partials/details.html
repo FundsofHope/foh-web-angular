@@ -1,0 +1,124 @@
+<!-- Polymer Style Sheet -->
+<style is=custom-style>
+paper-card{
+	--paper-card-header-color: white;
+	--paper-card-header-text: serif;
+	width: 400px;
+	height: 600px;
+}
+img{
+	max-width:MaxSize;
+}
+.cardDetail{
+		display: block; /* or inline-block */
+		text-overflow: ellipsis;
+		word-wrap: break-word;
+	 	overflow: hidden;
+		max-height: 7.6em;
+		line-height: 1.8em;
+
+}
+.paper-fab{
+	margin-top: -8%;
+	margin-left: 80%;
+}
+.info{
+	margin-left: 5%;
+	margin-top: 0%;
+	color: #004D40;
+}
+paper-progress{
+	--paper-progress-active-color: var(--paper-light-blue-500);
+	--paper-progress-height: 18px;
+	width: 100%;
+	margin-left: 0%;
+	margin-bottom: 0%;
+}
+.description{
+	height: 210px;
+}
+.dialogInfo{
+	margin-right: 5%;
+	margin-left: 5%;
+	color: #004D40;
+}
+#dialog{
+	height: 90%;
+	width: 90%;
+	overflow: auto;
+}
+#dialogDetails{
+	font-size: 150%;
+	margin-top: 3%;
+}
+img{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	margin: 0;
+}
+#image{
+	margin-top: 0;
+	padding: 0;
+}
+#dialogContent{
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
+	overflow: auto;
+}
+</style>
+
+<!-- HTML Body -->
+<section>
+	<!--user info -->
+	<h2 ng-controller="loginCtrl">{{response.first_name}}</h2>
+
+	<!-- paper-card Content -->
+	<div id="cards">
+
+		<!-- paper-cards -->
+		<paper-card id="paper-card" ng-repeat="items in descriptions" heading="{{items.title}}" image="../images/1.jpg" elevation="1">
+	  					<paper-fab class="paper-fab" icon="add" elevation="1"></paper-fab>
+		    			<div id="cardAnchor" class="info" ng-controller="videoController" ng-Click="play(items);">
+		    				<h2>About</h2>
+		    				<div class="description">
+			    				<p class="cardDetail">
+			    					{{items.description}}
+			    				</p>
+		    				</div>
+					  	</div>
+					  	
+						<!-- Paper-dialog Box -->
+		    			<paper-dialog id="dialog" entry-animation="scale-up-animation" exit-animation="scale-down-animation">
+		    					<div id="image">
+		    						<img src="../images/1.jpg">
+		    					</div>
+		    					<div id="dialogContent">
+										<h2 class="dialogInfo" id="dialogName">
+											{{items.ngo.name}}
+										</h2>
+										<h2 class="dialogInfo" id="dialogCost">
+											{{"Cost : " + items.cost}}
+										</h2>
+										<h2 id="dialogStatus" class="dialogInfo">
+													{{"STATUS : " + items.status}}
+										</h2>
+										<h2 id="dialogStart" class="dialogInfo">
+													{{items.startDate}}
+										</h2>
+										<h2 id="dialogEnd" class="dialogInfo">
+													{{items.endDate}}
+										</h2>
+										<div class="descriptionBox">
+											<p class="dialogInfo" id="dialogDetails" maxLength="50">
+												{{items.description }}
+											</p>
+										</div>
+								</div>
+						</paper-dialog>
+						<paper-progress value="{{items.status / items.cost}}" ></paper-progress>
+		</paper-card>
+</section>

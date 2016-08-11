@@ -1,0 +1,62 @@
+[
+	{
+		"imageUrl": "door_resized-350x250.jpg",
+		"name": "Helping hand.",
+		"motive": "providing services",
+		"description" : "This project is launch for those who need work as per their talent.Set to true to mark the input as required. If used in a form, a custom element that uses this behavior should also use Polymer.IronValidatableBehavior and define a custom validation method. Otherwise, a required element will always be considered valid. It's also strongly recommended to provide a visual style for the element when its value is invalid.",
+		"startDate": "2016-07-13T18:46:44Z", 
+		"endDate": "2016-08-26T18:46:53Z", 
+		"cost": "100000",
+		"status": "0",
+		"ngo": {"email": "anipmehta13@gmail.com", "id": "1", "phoneNo": "8447858705", "name": "FOH Ngo #1"},
+		"progress": "21%"
+	},
+	{
+		"imageUrl": "door_resized-350x250.jpg",
+		"name": "Another hand.",
+		"motive": "providing services",
+		"description" : "This project is launch for those who need work as per their talent.Set to true to mark the input as required. If used in a form, a custom element that uses this behavior should also use Polymer.IronValidatableBehavior and define a custom validation method. Otherwise, a required element will always be considered valid. It's also strongly recommended to provide a visual style for the element when its value is invalid.",
+		"startDate": "2016-07-13T18:46:44Z", 
+		"endDate": "2016-08-26T18:46:53Z", 
+		"cost": "100000",
+		"status": "0",
+		"ngo": {"email": "anipmehta13@gmail.com", "id": "1", "phoneNo": "8447858705", "name": "FOH Ngo #1"},
+		"progress": "41%"
+	},
+	{
+		"imageUrl": "door_resized-350x250.jpg",
+		"name": " Yet Another hand.",
+		"motive": "providing services",
+		"description" : "This project is launch for those who need work as per their talent.Set to true to mark the input as required. If used in a form, a custom element that uses this behavior should also use Polymer.IronValidatableBehavior and define a custom validation method. Otherwise, a required element will always be considered valid. It's also strongly recommended to provide a visual style for the element when its value is invalid.",
+		"startDate": "2016-07-13T18:46:44Z", 
+		"endDate": "2016-08-26T18:46:53Z", 
+		"cost": "100000",
+		"status": "0",
+		"ngo": {"email": "anipmehta13@gmail.com", "id": "1", "phoneNo": "8447858705", "name": "FOH Ngo #1"},
+		"progress": "87%"
+	},
+	{
+		"imageUrl": "door_resized-350x250.jpg",
+		"name": " Double Another hand.",
+		"motive": "providing services",
+		"description" : "This project is launch for those who need work as per their talent.Set to true to mark the input as required. If used in a form, a custom element that uses this behavior should also use Polymer.IronValidatableBehavior and define a custom validation method. Otherwise, a required element will always be considered valid. It's also strongly recommended to provide a visual style for the element when its value is invalid.",
+		"startDate": "2016-07-13T18:46:44Z", 
+		"endDate": "2016-08-26T18:46:53Z", 
+		"cost": "100000",
+		"status": "0",
+		"ngo": {"email": "anipmehta13@gmail.com", "id": "1", "phoneNo": "8447858705", "name": "FOH Ngo #1"},
+		"progress": "67%"
+	},
+		{
+		"imageUrl": "door_resized-350x250.jpg",
+		"name": " Triple Another hand.",
+		"motive": "providing services",
+		"description" : "This project is launch for those who need work as per their talent.Set to true to mark the input as required. If used in a form, a custom element that uses this behavior should also use Polymer.IronValidatableBehavior and define a custom validation method. Otherwise, a required element will always be considered valid. It's also strongly recommended to provide a visual style for the element when its value is invalid.",
+		"startDate": "2016-07-13T18:46:44Z", 
+		"endDate": "2016-08-26T18:46:53Z", 
+		"cost": "100000",
+		"status": "0",
+		"ngo": {"email": "anipmehta13@gmail.com", "id": "1", "phoneNo": "8447858705", "name": "FOH Ngo #1"},
+		"progress": "51%"
+	}
+]
